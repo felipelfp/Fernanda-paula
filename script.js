@@ -41,8 +41,9 @@ showSlide(currentSlide);
     }
 
     const texto = `Olá, meu nome é ${nome}. Meu e-mail é ${email}. Gostaria de dizer: ${mensagem}`;
-    const numero = "5568999008491"; 
+    const numero = "5568999008497"; 
     const link = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
 
     window.open(link, "_blank");
+
   }
